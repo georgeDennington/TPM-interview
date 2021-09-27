@@ -32244,6 +32244,20 @@ video {
   content: none;
 }
 
+.chart {
+  margin-top: 1.5rem
+}
+
+.grade {
+  margin-top: 0.5rem;
+  text-align: center
+}
+
+.retry {
+  display: block;
+  text-align: center
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

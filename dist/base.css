@@ -1,0 +1,29 @@
+html {
+  --tw-bg-opacity: 1;
+  background-color: rgba(236, 253, 245, var(--tw-bg-opacity))
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 100vh;
+  max-width: 1024px;
+  --tw-bg-opacity: 1;
+  background-color: rgba(191, 219, 254, var(--tw-bg-opacity));
+  padding: 2.5rem
+}
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem
+}
+
+span {
+  font-size: 1.25rem;
+  line-height: 1.75rem
+}

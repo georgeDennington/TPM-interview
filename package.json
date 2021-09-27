@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "start tailwindcss build -i src/quiz.css -o dist/quiz.css && start tailwindcss build -i src/answers.css -o dist/answers.css",
+    "build": "start tailwindcss build -i src/quiz.css -o dist/quiz.css && start tailwindcss build -i src/answers.css -o dist/answers.css && start tailwindcss build -i src/base.css -o dist/base.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

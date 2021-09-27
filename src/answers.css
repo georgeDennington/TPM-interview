@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.chart {
+  @apply mt-6
+}
+
+.grade {
+  @apply text-center mt-2
+}
+
+.retry {
+  @apply block text-center
+}

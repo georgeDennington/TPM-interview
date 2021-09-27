@@ -1,0 +1,19 @@
+html {
+  @apply bg-green-50 
+}
+
+body {
+  @apply max-w-screen-lg mx-auto bg-blue-200 p-10 min-h-screen	
+}
+
+h1 {
+  @apply text-3xl
+}
+
+h2 {
+  @apply text-2xl
+}
+
+span {
+  @apply text-xl
+}
