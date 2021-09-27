@@ -1,3 +1,50 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+html {
+  @apply bg-green-50
+}
+
+body {
+  @apply max-w-screen-lg mx-auto bg-blue-200 h-full p-10
+}
+
+h1 {
+  @apply text-3xl
+}
+
+h2 {
+  @apply text-2xl
+}
+
+span {
+  @apply text-xl
+}
+
+
+
+form {
+  @apply my-5 flex flex-col items-center
+}
+
+.question {
+  @apply flex flex-col flex-wrap text-center md:flex-row
+}
+
+.question h2 {
+  @apply w-full
+}
+
+.answer {
+  @apply w-full content-center flex flex-col items-center p-4 md:w-4/12
+}
+
+.answer input {
+  @apply w-5 h-5
+}
+
+button {
+  @apply bg-blue-400 rounded-md px-8 py-2 my-4 transition-all hover:shadow-2xl hover:bg-blue-500
+}

@@ -6,7 +6,26 @@
     <link rel="stylesheet" href="quiz.css" />
   </head>
   <body>
-    <h1>My First Heading</h1>
-    <p>My first paragraph.</p>
+    <div>
+      <h1>George's totally awsome quiz!</h1>
+    </div>
+    <form id="form">
+      <div id="0" class="question">
+        <h2>Can you pick the letter C?</h2>
+        <div class="answer">
+          <span>answer A</span>
+          <input type="radio" name="ans" value="a" required>
+        </div>
+        <div class="answer">
+          <span>answer B</span>
+          <input type="radio" name="ans" value="b" required>
+        </div>
+        <div class="answer">
+          <span>answer C</span>
+          <input type="radio" name="ans" value="c" required>
+        </div>
+      </div>
+      <button id="submit" class="finish" type="submit">Next</button>
+    </form>
   </body>
 </html>
