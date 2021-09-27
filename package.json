@@ -1,0 +1,24 @@
+{
+  "name": "TPM-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "start tailwindcss build -i src/quiz.css -o dist/quiz.css && start tailwindcss build -i src/answers.css -o dist/answers.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/georgeDennington/TPM-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/georgeDennington/TPM-interview/issues"
+  },
+  "homepage": "https://github.com/georgeDennington/TPM-interview#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.16"
+  }
+}
